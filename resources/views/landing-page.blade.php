@@ -28,27 +28,32 @@
         hover:bg-yellow-200 rounded">Get Started</a>
     </div>
     <div> <!-- right -->
-      <img src="https://images.unsplash.com/photo-1622495548455-b13f040084da?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="hero">
+      <img src="https://images.unsplash.com/photo-1622495548455-b13f040084da?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="hero"
+        class="w-full rounded shadow-2xl">
     </div>
   </div>
 
   <!-- features -->
-  <div>
-    <div>
-      <img src="https://images.unsplash.com/photo-1593642532781-03e79bf5bec2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80" alt="one">
-      <p>Php</p>
+  <div class="flex bg-indigo-800 py-16 px-10 text-indigo-300 text-center">
+    <div class="mr-2">
+      <img class="w-full mb-4 rounded-2xl border-solid border-4 border-yellow-700"
+        src="https://images.unsplash.com/photo-1593642532781-03e79bf5bec2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80" alt="one">
+      <p class="uppercase">Php</p>
     </div>
-    <div>
-      <img src="https://images.unsplash.com/photo-1593642634367-d91a135587b5?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="two">
-      <p>Vue</p>
+    <div class="mr-2 mt-8">
+      <img class="w-full mb-4 rounded-2xl border-solid border-4 border-yellow-700"
+        src="https://images.unsplash.com/photo-1593642634367-d91a135587b5?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="two">
+      <p class="uppercase">Vue</p>
     </div>
-    <div>
-      <img src="https://images.unsplash.com/photo-1593642531955-b62e17bdaa9c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" alt="three">
-      <p>Laravel</p>
+    <div class="mr-2">
+      <img class="w-full mb-4 rounded-2xl border-solid border-4 border-yellow-700"
+      src="https://images.unsplash.com/photo-1593642531955-b62e17bdaa9c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" alt="three">
+      <p class="uppercase">Laravel</p>
     </div>
-    <div>
-      <img src="https://images.unsplash.com/photo-1471897488648-5eae4ac6686b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80" alt="four">
-      <p>JS</p>
+    <div class="mr-2 mt-8">
+      <img class="w-full mb-4 rounded-2xl border-solid border-4 border-yellow-700"
+      src="https://images.unsplash.com/photo-1471897488648-5eae4ac6686b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80" alt="four">
+      <p class="uppercase">JS</p>
     </div>
   </div>
 
