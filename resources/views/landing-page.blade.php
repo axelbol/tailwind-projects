@@ -58,13 +58,17 @@
   </div>
 
   <!-- footer -->
-  <div>
+  <div class="p-10 bg-gray-300 text-gray-800 flex justify-between">
     <div> <!-- left -->
-      <h3>Join the newsletter</h3>
-      <form action="#"></form>
+      <h3 class="text-lg mb-2">Join the newsletter</h3>
+      <form action="#" class="flex">
+        <input type="email" name="email" class="w-full rounded-l py-3 px-4 focus:ring-offset-0
+          focus:ring-green-300 focus:bg-green-100">
+        <button class="bg-red-300 hover:bg-red-500 rounded-r px-4">Join</button>
+      </form>
     </div>
 
-    <div> <!-- right -->
+    <div class="flex items-center"> <!-- right -->
       Copyright &copy; Dot Coding 2021
     </div>
   </div>
