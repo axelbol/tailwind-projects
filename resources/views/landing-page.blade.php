@@ -17,35 +17,37 @@
   </div>
 
   <!-- hero section -->
-  <div>
-    <div> <!-- left -->
-      <h2>Welcome to my website</h2>
-      <p>I am learning Tailwind CSS</p>
+  <div class="flex justify-between py-20 px-10 bg-indigo-600 text-indigo-200">
+    <div class="mb-10"> <!-- left -->
+      <h2 class="text-6xl uppercase text-yellow-400 mb-6">Welcome to my website</h2>
+      <p class="mb-6 text-lg">I am learning Tailwind CSS</p>
 
-      <a href="#">Learn More</a>
-      <a href="#">Get Started</a>
+      <a href="#" class="inline-block py-3 px-6 text-lg bg-gray-500 text-gray-800
+        hover:bg-gray-200 rounded mr-4">Learn More</a>
+      <a href="#" class="inline-block py-3 px-6 text-lg bg-yellow-500 text-yellow-800
+        hover:bg-yellow-200 rounded">Get Started</a>
     </div>
     <div> <!-- right -->
-      <img src="" alt="">
+      <img src="https://images.unsplash.com/photo-1622495548455-b13f040084da?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="hero">
     </div>
   </div>
 
   <!-- features -->
   <div>
     <div>
-      <img src="" alt="">
+      <img src="https://images.unsplash.com/photo-1593642532781-03e79bf5bec2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80" alt="one">
       <p>Php</p>
     </div>
     <div>
-      <img src="" alt="">
+      <img src="https://images.unsplash.com/photo-1593642634367-d91a135587b5?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="two">
       <p>Vue</p>
     </div>
     <div>
-      <img src="" alt="">
+      <img src="https://images.unsplash.com/photo-1593642531955-b62e17bdaa9c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" alt="three">
       <p>Laravel</p>
     </div>
     <div>
-      <img src="" alt="">
+      <img src="https://images.unsplash.com/photo-1471897488648-5eae4ac6686b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80" alt="four">
       <p>JS</p>
     </div>
   </div>
